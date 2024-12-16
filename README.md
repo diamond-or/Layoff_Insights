@@ -19,6 +19,7 @@ FROM layoff_staging2;
 ~~~~
 
 #### Answer: 
+<img width="195" alt="Screenshot 2024-12-16 at 3 51 14 pm" src="https://github.com/user-attachments/assets/ff3a41e2-6f13-4da8-a991-1dd5df68d389" />
 
 ### 3. What is the top 5 companies that have the highest number of laid off?
 ~~~~sql
@@ -30,6 +31,7 @@ LIMIT 5;
 ~~~~
 
 #### Answer: 
+<img width="197" alt="Screenshot 2024-12-16 at 3 54 21 pm" src="https://github.com/user-attachments/assets/7751c260-23ba-497a-8347-0001b0dc609e" />
 
 ### 4. What is the top 5 industrial that have the highest number of laid off?
 ~~~~sql
@@ -41,6 +43,7 @@ LIMIT 5;
 ~~~~
 
 #### Answer: 
+<img width="200" alt="Screenshot 2024-12-16 at 4 51 31 pm" src="https://github.com/user-attachments/assets/849e1214-b829-483f-aba6-21e1678b7a21" />
 
 ### 5. What is the top 5 countries that have the highest number of laid off?
 ~~~~sql
@@ -52,6 +55,7 @@ LIMIT 5;
 ~~~~
 
 #### Answer: 
+<img width="373" alt="Screenshot 2024-12-16 at 4 51 40 pm" src="https://github.com/user-attachments/assets/c21e04b0-8cc5-4904-9b3a-61bb15533008" />
 
 ### 6. What year has the highest laid off?
 ~~~~sql
@@ -64,6 +68,7 @@ ORDER BY Year DESC;
 ~~~~
 
 #### Answer: 
+<img width="121" alt="Screenshot 2024-12-16 at 4 52 04 pm" src="https://github.com/user-attachments/assets/19a5b56c-5d0c-42b2-8be1-e6064b4b65eb" />
 
 ### 7. What month has the highest laid off?
 ~~~~sql
@@ -75,6 +80,7 @@ ORDER BY 1;
 ~~~~
 
 #### Answer: 
+<img width="131" alt="Screenshot 2024-12-16 at 4 52 32 pm" src="https://github.com/user-attachments/assets/75fc1fed-b2a6-43c1-bb6a-c0a61f12caea" />
 
 ### 8. Calculate monthly layoffs and their cumulative rolling sum over time.
 ~~~~sql
@@ -89,6 +95,7 @@ SELECT `MONTH`, total_off,SUM(total_off) OVER(ORDER BY `MONTH`) as rolling_sum F
 ~~~~
 
 #### Answer: 
+<img width="191" alt="Screenshot 2024-12-16 at 4 52 58 pm" src="https://github.com/user-attachments/assets/a8fff57f-d2bf-4494-b839-9b84fd3bf120" />
 
 ### 9. What year is the highest laid off in top the 5 company?
 ~~~~sql
@@ -100,6 +107,7 @@ LIMIT 5;
 ~~~~
 
 #### Answer: 
+<img width="174" alt="Screenshot 2024-12-16 at 4 53 10 pm" src="https://github.com/user-attachments/assets/5b65a84b-5975-4c44-9fa4-d67318795bf9" />
 
 ### 10. Find the top 5 companies with the highest layoffs per year, ranked by total layoffs.
 ~~~~sql
@@ -112,3 +120,4 @@ SELECT * FROM Company_Ranking WHERE RANKING <= 5 ORDER BY year
 ~~~~
 
 #### Answer: 
+<img width="252" alt="Screenshot 2024-12-16 at 4 53 24 pm" src="https://github.com/user-attachments/assets/fc2ffd2d-bf86-4ef9-918a-a4f31041db19" />
