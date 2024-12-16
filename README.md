@@ -10,6 +10,7 @@ FROM layoff_staging2;
 ~~~~
 
 #### Answer: 
+<img width="366" alt="Screenshot 2024-12-16 at 3 49 45 pm" src="https://github.com/user-attachments/assets/9d9f0bda-2636-4113-b13a-2cf5528fd02b" />
 
 ### 2. What is the start date and end date of laid off data?
 ~~~~sql
